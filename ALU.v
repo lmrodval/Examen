@@ -39,9 +39,9 @@ localparam SUB = 4'b0100;
 		  SUB: // sub
 			ALUResult=A - B;
 		  AND: // and
-			ALUResult= A & B;
+			ALUResult= A * B;
 		  OR: // or
-			ALUResult= A | B;
+			ALUResult= A^2;
 		  NOR: // or
 			ALUResult= ~(A|B);
 		default:
